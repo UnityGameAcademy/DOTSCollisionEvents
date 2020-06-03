@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 5869382438380070115}
   - component: {fileID: 5869382438380070118}
   - component: {fileID: 5869382438380070117}
+  - component: {fileID: 5869382438380070119}
   m_Layer: 0
   m_Name: Chaser
   m_TagString: Untagged
@@ -371,3 +372,17 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &5869382438380070119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5869382438380070110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7656adb17fd47fb99e9d07a8104e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentValue: 100
+  isDead: 0
