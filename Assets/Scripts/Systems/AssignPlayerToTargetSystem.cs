@@ -19,8 +19,8 @@ public class AssignPlayerToTargetSystem : SystemBase
 
     protected override void OnUpdate()
     {
-      //AssignPlayer();
-    }
+		AssignPlayer();
+	}
 
     private void AssignPlayer()
     {
